@@ -1,0 +1,22 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.11",
+    "heartbeatAt": "2022-01-19T10:19:50.718289",
+    "startedAt": "2022-01-19T10:19:48.486342",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/baixiang/mlops-learning/src/pytorchlighting_huggingface_wandb/fine_tuninng_with_sigle_gpu_or_cpu.py",
+    "codePath": "src/pytorchlighting_huggingface_wandb/fine_tuninng_with_sigle_gpu_or_cpu.py",
+    "git": {
+        "remote": "https://github.com/baixianger/mlops-learning",
+        "commit": "94a708a8b76699d7a56389269f34e83f0efc2412"
+    },
+    "email": "baixianger@gmail.com",
+    "root": "/Users/baixiang/mlops-learning",
+    "host": "baixiangdeMacBook-Pro.local",
+    "username": "baixiang",
+    "executable": "/opt/miniconda3/envs/course02456/bin/python"
+}
