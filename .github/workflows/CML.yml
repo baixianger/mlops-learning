@@ -11,7 +11,7 @@
                REPO_TOKEN: $
            run: |
                pip install -r requirements.txt  # install dependencies
-               python exercises/s5/CML_eval.py  # run training
+               python exercises/s6/CML_eval.py  # run training
 
                # send all information to report.md that will be reported to us when the workflow finish
                cat exercises/s6/classification_report.txt >> report.md
