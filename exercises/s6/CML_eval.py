@@ -37,9 +37,9 @@ target = torch.cat(target, dim=0)
 preds = torch.cat(preds, dim=0)
 print(target.shape, preds.shape)
 report = classification_report(target, preds)
-with open(os.path.join(path_root,"classification_report.txt"), 'w') as outfile:
+with open("classification_report.txt", 'w') as outfile:
     outfile.write(report)
 confmat = confusion_matrix(target, preds)
 # disp = ConfusionMatrixDisplay(confmat)
 plot_confusion_matrix(confmat)
-plt.savefig(os.path.join(path_root,"confusion_matrix.png"))
+plt.savefig("confusion_matrix.png")
