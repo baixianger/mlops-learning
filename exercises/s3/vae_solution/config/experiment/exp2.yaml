@@ -1,0 +1,10 @@
+# @package _group_
+dataset_path: 'exercises/s1/MNIST_data/MNIST'
+x_dim: 784
+hidden_dim: 400
+latent_dim: 20
+batch_size: 16
+lr: 0.01
+n_epochs: 1
+seed: 123
+model_name: 'model2.pth'
