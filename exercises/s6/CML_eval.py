@@ -35,9 +35,9 @@ for batch in testloader:
 
 target = torch.cat(target, dim=0)
 preds = torch.cat(preds, dim=0)
-print(target.shape, preds.shape)
 report = classification_report(target, preds)
 with open("classification_report.txt", 'w') as outfile:
+    print(os.getcwd())
     outfile.write(report)
 confmat = confusion_matrix(target, preds)
 # disp = ConfusionMatrixDisplay(confmat)

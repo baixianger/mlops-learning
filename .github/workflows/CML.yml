@@ -10,7 +10,7 @@
            env:
                REPO_TOKEN: $
            run: |
-               pip install -r requirements.txt  # install dependencies
+               pip install scikit_learn matplotlib torch torchvision  # install dependencies
                python exercises/s6/CML_eval.py  # run training
 
                # send all information to report.md that will be reported to us when the workflow finish
