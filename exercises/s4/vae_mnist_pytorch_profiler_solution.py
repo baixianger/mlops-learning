@@ -13,7 +13,7 @@ from torchvision.utils import save_image
 from torch.profiler import profile, record_function, ProfilerActivity
 
 # Model Hyperparameters
-dataset_path = 'datasets'
+dataset_path = 'exercises/s0_datasets'
 cuda = False
 DEVICE = torch.device("cuda" if cuda else "cpu")
 batch_size = 100

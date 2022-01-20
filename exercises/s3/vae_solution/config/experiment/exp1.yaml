@@ -1,5 +1,5 @@
 # @package _group_
-dataset_path: 'exercises/s1/MNIST_data/MNIST'
+dataset_path: 'exercises/s0_datasets'
 x_dim: 784
 hidden_dim: 400
 latent_dim: 20

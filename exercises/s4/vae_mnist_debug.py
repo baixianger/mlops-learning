@@ -12,7 +12,7 @@ from torchvision.datasets import MNIST
 from torchvision.utils import save_image
 
 # Model Hyperparameters
-dataset_path = 'datasets'
+dataset_path = 'exercises/s0_datasets'
 cuda = torch.cuda.is_available()
 DEVICE = torch.device("cuda" if cuda else "cpu")
 batch_size = 100
