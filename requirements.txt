@@ -1,1 +1,12 @@
-torch==1.7.1
+datasets==1.17.0
+hydra-core==1.1.1
+matplotlib==3.4.2
+numpy==1.18.5
+omegaconf==2.1.1
+optuna==2.10.0
+Pillow==9.0.0
+pytorch_lightning==1.5.8
+scikit_learn==1.0.2
+torch==1.9.0
+torchvision==0.10.0
+transformers==4.15.0
