@@ -1,4 +1,4 @@
- name: train-my-model
+ name: CML Evaluation
  on: [push]
  jobs:
    run:
@@ -6,7 +6,7 @@
      container: docker://iterativeai/cml:0-dvc2-base1  # continuous machine learning tools
      steps:
          - uses: actions/checkout@v2
-         - name: cml_run
+         - name: cml_eval
            env:
                REPO_TOKEN: $
            run: |
@@ -14,6 +14,6 @@
                python exercises/s5/CML_eval.py  # run training
 
                # send all information to report.md that will be reported to us when the workflow finish
-               cat exercises/s5/classification_report.txt >> report.md
-               cml-publish exercises/s5/confusion_matrix.png --md >> report.md
+               cat exercises/s6/classification_report.txt >> report.md
+               cml-publish exercises/s6/confusion_matrix.png --md >> report.md
                cml-send-comment report.md
