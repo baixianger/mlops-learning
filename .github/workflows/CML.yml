@@ -16,4 +16,4 @@
                # send all information to report.md that will be reported to us when the workflow finish
                cat exercises/s5/classification_report.txt >> report.md
                cml-publish exercises/s5/confusion_matrix.png --md >> report.md
-               cml-send-comment exercises/s5/report.md
+               cml-send-comment report.md
